@@ -37,7 +37,7 @@ We trained multiple machine learning models:
 - **F1-Score**
 - **ROC-AUC Score**
 
-The **Random Forest Classifier** performed best with an F1-score of **X.XX** and an AUC-ROC of **X.XX**.
+The **Random Forest Classifier** performed best with an F1-score of **0.91** and an AUC-ROC of **0.949**.
 
 ## Key Findings
 - **Larger asteroids tend to be more hazardous**.
