@@ -173,23 +173,6 @@ for name, model in models.items():
     fpr, tpr, _ = roc_curve(y_test, y_prob)
     plt.plot(fpr, tpr, label=f"{name} (AUC = {auc:.3f})")
 
-# **8️⃣ Print Results**
-for name, result in results.items():
-    print(f"\n🔹 Model: {name}")
-    print(f"✅ Accuracy: {result['Accuracy']:.3f}")
-    print(f"✅ AUC Score: {result['AUC']:.3f}")
-    print(f"✅ Classification Report:\n{result['Report']}")
-
-# **9️⃣ Confusion Matrix for Best Model**
-best_model_name = [name for name, model in models.items() if model == best_model][0]
-print(f"\n🎯 Best Model: {best_model_name} (AUC = {best_auc:.3f})")
-
-plt.plot([0, 1], [0, 1], linestyle="--", color="gray")
-plt.xlabel("False Positive Rate")
-plt.ylabel("True Positive Rate")
-plt.title("AUC-ROC Curve")
-plt.legend()
-plt.show()
 
 ```
 
