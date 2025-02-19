@@ -29,7 +29,6 @@ We trained multiple machine learning models:
 1. **Logistic Regression**
 2. **Random Forest Classifier**
 3. **Gradient Boosting Classifier**
-4. **Support Vector Machine (SVM)**
 
 ### Performance Metrics:
 - **Accuracy**
